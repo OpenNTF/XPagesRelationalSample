@@ -1,5 +1,7 @@
 XPagesRelationalSample
 ======================
+This project contains a sample XPages application that leverages the XPages Relational feature. It also provides a sample OSGi plugin wrapper for Apache Derby.
+
 
 OPENNTF
 =======

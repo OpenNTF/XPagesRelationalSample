@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ******************************************************************* -->
 <feature
-      id="com.ibm.xsp.extlibx.relational.derby.feature"
+      id="org.openntf.xsp.relational.derby.feature"
       label="XPages Relational Sample Derby Feature"
       version="1.0.0.qualifier"
       provider-name="IBM">
@@ -219,10 +219,9 @@
    </license>
 
    <plugin
-         id="com.ibm.xsp.extlibx.relational.derby"
+         id="org.openntf.xsp.relational.derby"
          download-size="0"
          install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

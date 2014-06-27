@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.ibm.xsp.extlibx.relational.derby.feature_1.0.0.201406251103.jar" id="com.ibm.xsp.extlibx.relational.derby.feature" version="1.0.0.201406251103"/>
+   <feature url="features/org.openntf.xsp.relational.derby.feature_1.0.0.201406271422.jar" id="org.openntf.xsp.relational.derby.feature" version="1.0.0.201406271422">
+      <category name="OpenNTF Builds"/>
+   </feature>
+   <category-def name="OpenNTF Builds" label="OpenNTF Builds"/>
 </site>

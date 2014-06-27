@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>com.ibm.xsp.extlibx.relational.derby.feature</name>
+	<name>org.openntf.xsp.relational.derby.feature</name>
 	<comment></comment>
 	<projects>
 	</projects>

@@ -128,7 +128,7 @@
     	<tstamp>
     		<format property="date.stamp" pattern="yyyyMMddHHmm" locale="en,GB"/>
     	</tstamp>
-		<property name="release.filename" value="XPagesRelationalSample_${release.version}_${date.stamp}"/>
+		<property name="release.filename" value="XPagesRDBMSEnablement_${release.version}_${date.stamp}"/>
 				
 		<!-- Generate the zip file -->
 		<zip destfile="${dir.release.output}/${release.filename}.zip">

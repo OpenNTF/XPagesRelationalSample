@@ -110,6 +110,7 @@
 		<!-- Copy necessary files to the temp folder -->
 		<copy todir="${dir.temp}">
 		    <fileset dir="${dir.application}" includes="*.nsf" />
+		    <fileset dir="${basedir}" includes="*.pdf" />
 		    <fileset dir="${basedir}" includes="LICENSE" />
 		    <fileset dir="${basedir}" includes="NOTICE" />
 		</copy>
@@ -128,7 +129,7 @@
     	<tstamp>
     		<format property="date.stamp" pattern="yyyyMMddHHmm" locale="en,GB"/>
     	</tstamp>
-		<property name="release.filename" value="XPagesRelationalSample_${release.version}_${date.stamp}"/>
+		<property name="release.filename" value="XPagesRDBMSEnablement_${release.version}_${date.stamp}"/>
 				
 		<!-- Generate the zip file -->
 		<zip destfile="${dir.release.output}/${release.filename}.zip">

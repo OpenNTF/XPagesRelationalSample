@@ -110,6 +110,7 @@
 		<!-- Copy necessary files to the temp folder -->
 		<copy todir="${dir.temp}">
 		    <fileset dir="${dir.application}" includes="*.nsf" />
+		    <fileset dir="${basedir}" includes="*.pdf" />
 		    <fileset dir="${basedir}" includes="LICENSE" />
 		    <fileset dir="${basedir}" includes="NOTICE" />
 		</copy>
